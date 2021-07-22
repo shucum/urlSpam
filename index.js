@@ -5,8 +5,8 @@ const fesgiymissura = require('fs');
 const request = require('request');
 client.aktif = "true"
 client.token = "token gir bebeğim"
-client.sunucuid = ""
-client.url = "crs"
+client.sunucuid = "sunucu id gir bebeğim"
+client.url = "url gir sunucu url"
 fesgiymissura.readdir("./Etkinlikler/", (err, klasor) => {
   if (err) return console.myTime(err);
   klasor.forEach(bot => {
