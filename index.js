@@ -4,8 +4,8 @@ global.client = client;
 const fesgiymissura = require('fs');
 const request = require('request');
 client.aktif = "true"
-client.token = "ODM2MzU5MzkwMzAyNjk5NTQx.YIc2YQ._fzor7CZQoRgDNXvP_21FsnWEaI"
-client.sunucuid = "836348224205488139"
+client.token = "token gir bebeğim"
+client.sunucuid = ""
 client.url = "crs"
 fesgiymissura.readdir("./Etkinlikler/", (err, klasor) => {
   if (err) return console.myTime(err);
